@@ -15,6 +15,10 @@ buttons:
         conditions:
           - key: command
             value: "move_with_on_off"
+      - title: hold (released)
+        conditions:
+          - key: command
+            value: long_release
   - x: 168
     y: 434
     width: 50
@@ -27,3 +31,7 @@ buttons:
         conditions:
           - key: command
             value: "move"
+      - title: hold (released)
+        conditions:
+          - key: command
+            value: long_release
